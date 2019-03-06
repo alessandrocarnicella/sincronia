@@ -11,9 +11,9 @@ public class LoginController {
 		return "Login";
 	}
 	
-	@RequestMapping("/Prova")
+	@RequestMapping("/Dashboard")
 	public String getHello() {
-		return "Prova";
+		return "Dashboard";
 	}
 
 }
