@@ -14198,10 +14198,17 @@ html {
   padding-left: 0;
   padding-right: 0; }
   .page-body-wrapper:not(.auth-page) {
-    padding-top: 63px; }
+    padding-top: 55px; }
   .page-body-wrapper.full-page-wrapper {
     width: 100%;
     min-height: 100vh; }
+
+.padd-0 {
+  padding:0px!important;
+  }
+.padd-55{
+	padding-top:55px;
+}
 
 .main-panel {
   transition: width 0.25s ease, margin 0.25s ease;

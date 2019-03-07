@@ -16,7 +16,13 @@
 	<layout:put block="content" type="REPLACE">
 		<div class="main-panel  padd-55">
 			<div class="content-wrapper">
-				<%@ include file="templates/homepage.jsp" %>
+				<!--  CODE QUI -->
+				<div class="row">		
+					<div class="col-md-12">
+						prova
+					</div>
+					
+				</div>
 			</div>
 			
 			<layout:put block="footer" type="REPLACE">
