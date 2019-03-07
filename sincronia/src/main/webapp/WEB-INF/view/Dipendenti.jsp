@@ -5,6 +5,10 @@
 
 <layout:extends name="Login">
 
+	<layout:put block="TITLE" type="REPLACE">
+		<title>DIPENDENTI</title>
+	</layout:put>
+	
 	<layout:put block="header" type="REPLACE">
 		<%@ include file="templates/header.jsp"%>
 	</layout:put>
@@ -16,7 +20,7 @@
 	<layout:put block="content" type="REPLACE">
 		<div class="main-panel  padd-55">
 			<div class="content-wrapper">
-				<%@ include file="templates/homepage.jsp" %>
+				<%@ include file="templates/dipendenti.jsp" %>
 			</div>
 			
 			<layout:put block="footer" type="REPLACE">

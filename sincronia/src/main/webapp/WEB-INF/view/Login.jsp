@@ -22,7 +22,11 @@
 
   <link rel="shortcut icon" href="images/favicon.png" />
   <meta charset="ISO-8859-1">
-  <title>INDEX</title>
+  
+  <layout:block name="TITLE">
+  	<title>LOGIN</title>
+  </layout:block>
+
 </head>
 
 <body>

@@ -3,7 +3,12 @@
 	prefix="layout"%>
 
 
+
 <layout:extends name="Login">
+
+<layout:put block="TITLE" type="REPLACE">
+	<title>DASHBOARD</title>
+</layout:put>
 
 	<layout:put block="header" type="REPLACE">
 		<%@ include file="templates/header.jsp"%>
@@ -25,12 +30,6 @@
 			
 		</div>
 	</layout:put>
-
-
-
-
-
-
 
 
 </layout:extends>
