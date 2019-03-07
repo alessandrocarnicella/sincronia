@@ -11,6 +11,11 @@ public class LoginController {
 		return "Login";
 	}
 	
+	@RequestMapping("/Login")
+	public String getLogin() {
+		return "Login";
+	}
+	
 	@RequestMapping("/Dashboard")
 	public String getHello() {
 		return "Dashboard";
@@ -46,4 +51,8 @@ public class LoginController {
 		return "GestioneUtenti";
 	}
 	
+	@RequestMapping("/ForgotPassword")
+	public String getForgotPassword() {
+		return "ForgotPassword";
+	}
 }

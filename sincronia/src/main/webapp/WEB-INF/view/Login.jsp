@@ -69,7 +69,7 @@
                     
                     <div class="row">
                     	<div class="col-12 text-center form-group">
-                    		<a href="#" class="text-small forgot-password text-black">Forgot Password</a>
+                    		<a href="ForgotPassword" class="text-small forgot-password text-black">Forgot Password</a>
                     	</div>
                     </div>
 	                   

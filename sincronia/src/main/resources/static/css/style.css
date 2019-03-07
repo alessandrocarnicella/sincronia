@@ -16128,8 +16128,8 @@ ul {
     height: 44px; }
     .auth.theme-one .auto-form-wrapper .form-group .input-group .form-control {
       border: 1px solid #e5e5e5;
-      border-right: none;
-      border-radius: 6px 0 0 6px; }
+      /*border-right: none;*/
+      border-radius: 6px; }
       .auth.theme-one .auto-form-wrapper .form-group .input-group .form-control:focus {
         border-right: none;
         border-color: #e5e5e5; }
